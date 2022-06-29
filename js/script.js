@@ -261,7 +261,7 @@ $(document).ready(function() {
 	// 07. COUNTDOWN
 	//===================================================================================
 	var theday = new Date();
-	theday = new Date(2022, 6, 9);
+	theday = new Date(2022, 9, 15);
 		 
 	$('#countdown').countdown({until: theday, format: 'dHMS', compact: true});
 	$('#countdown').countdown($.countdown.regionalOptions['custom-label']); 

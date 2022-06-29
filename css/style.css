@@ -2494,12 +2494,12 @@ footer .image-divider.fixed-height{
 }
 
 .link-wrapper{
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 
 a.link-btn{
 	color: #FFF;
-	font-size: 15px;
+	font-size: 13px;
 	font-family: 'MaruBuriExtraLight', serif;
 	text-decoration: none;
 	cursor: pointer;
@@ -2524,6 +2524,7 @@ a.link-btn{
 	color: rgba(255, 255, 255, 0.8);
 	letter-spacing: 1px;
 	text-decoration: none;
+	cursor: pointer;
 }
 
 /*===============================================*/
@@ -3735,7 +3736,7 @@ h2#dont-miss-it-title{
 }
 
 a.link-btn{
-	font-size: 13px;
+	font-size: 12px;
 }
 
 .copyright{
@@ -3987,11 +3988,11 @@ footer .image-divider.fixed-height{
 }
 
 .link-wrapper{
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 
 a.link-btn{
-	font-size: 11px;
+	font-size: 10px;
 	font-family: 'MaruBuriLight', serif;
 }
 
