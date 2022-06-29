@@ -3,15 +3,17 @@
 /*===============================================*/
 
 #preloader{
-	background-color: #f6f1eb;
+	background-color: #fff;
 }
 
 .heart-animation i{
-	color: #f17e50;
+	/*color: #f17e50;*/
+	color: #FA7991;
 }
 
 .heart-animation-reverse i{
-	color:#728c59;
+	/*color:#728c59;*/
+	color: #909090;
 }
 
 /*===============================================*/
