@@ -1,30 +1,29 @@
 /*===============================================*/
-/* 00. PRELOADER		 						 */
+/* PRELOADER		 						     */
 /*===============================================*/
 
 #preloader{
-	background-color: #fff;
+	background-color: #f8f7f5;
 }
 
 .heart-animation i{
-	/*color: #f17e50;*/
-	color: #FA7991;
+	color: #f17e50;
 }
 
 .heart-animation-reverse i{
-	/*color:#728c59;*/
-	color: #909090;
+	color:#728c59;
 }
 
 /*===============================================*/
-/* 01. GENERAL			 						 */
-/*===============================================
+/* GENERAL		     	 						 */
+/*===============================================*/
 
 /* ----------------------------------------------*/
-/* 01.1 Background Color						 */
+/* Background Color			         			 */
 /* ----------------------------------------------*/
 #greeting{
-	background-color: #f6f1eb;
+	background-color: #f8f7f5;
+	/*background-color: #f6f1eb;*/
 	/*background-color: #f9f9f9;*/	
 }
 
@@ -33,15 +32,15 @@
 }
 
 #parents{
-	background-color: #f6f1eb;
+	background-color: #fff;
 }
 
 #our-story{
-	background-color: #FFF;
+	background-color: #f8f7f5;
 }
 
 #gallery-section{
-	background-color: #f6f1eb;
+	background-color: #fff;
 }
 
 #more-events{
@@ -53,13 +52,13 @@
 }
 
 #where-when{
-	background-color: #f6f1eb;
+	background-color: #f8f7f5;
 }
 /* ----------------------------------------------*/
-/* 01.2 TEXT DECORATION    						 */
+/* TEXT DECORATION       						 */
 /* ----------------------------------------------*/
 
-/* 01.2.1 OVERALL                              */
+/* OVERALL                                       */
 /* ----------------------------------------------*/
 h1, h2, h3, h4, h5, h6,
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
@@ -84,7 +83,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
 }
 
 
-/* 01.2.2 LINE                              */
+/* LINE                                          */
 /* ----------------------------------------------*/
 /* line in story popup template */
 hr.line-divider{
@@ -92,9 +91,44 @@ hr.line-divider{
 	color: #e6ddcd;
 }
 
+/*===============================================*/
+/* PHOTO ITEM					    			 */
+/*===============================================*/
+.photo-item {
+	position:relative;
+	overflow:hidden;
+}
+
+.photo-item.frame-border {
+	background-color:transparent;
+	border-radius: 10px; 
+}
+
+#couple .photo-item.frame-border {
+	background-color:transparent;
+	border-radius: 10px; 
+	margin: 5px;
+}
+
+#parents .photo-item.frame-border {
+	border-radius: 10px; 
+	margin: 5px;
+}
+
+#popup-template .photo-item.frame-border{
+	border-radius: 10px; 
+}
+
+/* ----------------------------------------------*/
+/* Image    									 */
+/* ----------------------------------------------*/
+.photo-item img {
+	width: 100%;
+}
+
 
 /*===============================================*/
-/* 02. MAIN SLIDER 	 							 */
+/* MAIN SLIDER 	 					    		 */
 /*===============================================*/
 
 .slide-title h1 small{

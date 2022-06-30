@@ -1656,12 +1656,11 @@ a:hover .de-icon.effect3{
 }
 
 .three-col.with-gutter .masonry-col{
-	margin-bottom:30px;
+	margin-bottom:25px;
 }
 
-
 .three-col.with-gutter .masonry-col.w33{
-	width:31%;
+	width:32%;
 }
 
 .three-col.with-gutter .masonry-col.w66{
@@ -2015,12 +2014,14 @@ a:hover .de-icon.effect3{
 
 .story-date{
 	float:left;
-	margin-left:16px;
-	height:85px; 
-	width:85px; 
+	margin-left:50px;
+	/*height:85px;*/ 
+	/*width:85px;*/ 
 	/*background-color:#f0394d;*/
-	background-color: transparent;
+	background-color: #e1dddd;
 	border-radius:50%;
+	height: 20px;
+	width: 20px;
 }
 
 .story-date .date-only{
@@ -2087,9 +2088,9 @@ a:hover .de-icon.effect3{
 	background-color: #f8f5f5;
 }
 
-#gallery-section .photo-item{
+/*#gallery-section .photo-item{
 	margin-bottom:30px;
-}
+}*/
 
 #gallery-section .photo-item img {
     height: auto;
@@ -2596,9 +2597,14 @@ button.mfp-close, button.mfp-arrow {
 } 
 
 /* 09.1 Image */
-#gallery-section .photo-item img {
-    height: auto;
-	width: 100%;
+
+.three-col.with-gutter .masonry-col{
+	margin-bottom:21px;
+}
+
+/* Story Section */
+.story-date{
+	margin-left: 33px;
 }
 
 }
@@ -2932,12 +2938,13 @@ button.mfp-close, button.mfp-arrow {
 }
 
 .story-date{
-	float:none;
+	/*float:none;
 	position:absolute;	
 	top:-70px;
 	left:0;
 	right:0;
-	margin:auto;
+	margin:auto;*/
+	display: none;
 }
 
 .story-date .month-year{
@@ -3007,19 +3014,18 @@ button.mfp-close, button.mfp-arrow {
 /* ----------------------------------------------*/
 /* 09.1 Image 									 */
 /* ----------------------------------------------*/
-#gallery-section .photo-item img {
-    height: auto;
-	width: 100%;
+.three-col.with-gutter .masonry-col{
+	margin-bottom:16px;
 }
-    
-#gallery-section .photo-item{
+
+/*#gallery-section .photo-item{
 	margin-bottom:20px;
 }
 
 #gallery-section .container .row .col-xs-6, .col-xs-12 {
     padding-right: 10px; !important;
     padding-left: 10px; !important;
-}
+}*/
 
 /* ICON IMAGE */
 #flower-icon{
@@ -3430,19 +3436,18 @@ hr.line-divider{
 /* ----------------------------------------------*/
 /* 09.1 Image & Space								 */
 /* ----------------------------------------------*/
-#gallery-section .photo-item img {
-    height: auto;
-	width: 100%;
+.three-col.with-gutter .masonry-col{
+	margin-bottom:10px;
 }
     
-#gallery-section .photo-item{
+/*#gallery-section .photo-item{
 	margin-bottom:10px;
 }
 
 #gallery-section .container .row .col-xs-6, .col-xs-12 {
     padding-right: 5px; !important;
     padding-left: 5px; !important;
-}
+}*/
 
 .section-title img{
 	height: 30px;
@@ -3937,6 +3942,16 @@ h2#dont-miss-it-title{
 	padding-left: 5px;
 	padding-right: 5px;
 }*/
+
+/* ----------------------------------------------*/
+/* GALLERY Section		     			     */
+/* ----------------------------------------------*/
+.three-col.with-gutter .masonry-col{
+	margin-bottom:10px;
+}
+.three-col.with-gutter .masonry-col.w33{
+	width:31%;
+}
 
 /* ----------------------------------------------*/
 /* Where When Section		     			     */
