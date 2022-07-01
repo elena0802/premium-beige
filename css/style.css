@@ -13,9 +13,9 @@
 body{
     font-family: 'MaruBuri', serif;
 	font-size:15px;
-	scrollbar-width: none !important;
+	/*scrollbar-width: none !important;
 	-ms-overflow-style: none !important;
-	overflow-x: hidden;
+	overflow-x: hidden;*/
 }
 
 body::-webkit-scrollbar{
@@ -152,8 +152,7 @@ img.with-border{
 
 .description{
 	text-align: justify;
-	text-justify: inter-word;
-	font-family: 'MaruBuriLight', serif;
+	font-family: 'MaruBuri', serif;
 	line-height: 1.9em;
 }
 
@@ -2614,6 +2613,8 @@ button.mfp-close, button.mfp-arrow {
 /* ----------------------------------------------*/
 
 @media screen and (max-width: 991px) {	
+
+
 /*===============================================*/
 /* 02. NAV BAR 	 							 	 */
 /*===============================================*/
@@ -2966,7 +2967,13 @@ button.mfp-close, button.mfp-arrow {
 .vertical-line{
 	display:none;
 }
-
+/* ----------------------------------------------*/
+/* Gift Section						             */
+/* ----------------------------------------------*/
+#gift-info{
+	width: 80%;
+	margin: auto;
+}
 
 /* ----------------------------------------------*/
 /* Where When Section						     */
@@ -3241,6 +3248,23 @@ h2#dont-miss-it-title{
 #divider-title-line{
 	font-size: 65px;
 	line-height: 65px;
+}
+
+/* ----------------------------------------------*/
+/* Gift Section						             */
+/* ----------------------------------------------*/
+
+#gift-info{
+	width: 100%;
+}
+
+#gift-section .col-md-6{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.btninner{
+	margin: 0px 5px;
 }
 
 /* ----------------------------------------------*/
@@ -3675,7 +3699,12 @@ h2#dont-miss-it-title{
 /* Gift Section	        						 */
 /* ----------------------------------------------*/
 #gift-section{
-	padding: 60px 5px 100px 5px;
+	padding: 60px 0px 100px 0px;
+}
+
+#gift-section .col-md-6{
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 .accordion1{
