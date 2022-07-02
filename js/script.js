@@ -312,10 +312,10 @@ $(document).ready(function() {
 	//------------------------------------------------------------------------------
 	if ($("#events-carousel").length){		
     	$("#events-carousel").owlCarousel({
-			items : 1,
-			itemsDesktop: [1000,1],
-			itemsDesktopSmall: [900,1],
-			itemsTablet:[600,1], 
+			items : 2,
+			itemsDesktop: [1200,2],
+			itemsDesktopSmall: [991,1],
+			itemsTablet:[767,1], 
 			autoPlay: false,
 			stopOnHover: true,
 			pagination: true,

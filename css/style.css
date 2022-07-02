@@ -2213,6 +2213,12 @@ h2#dont-miss-it-title{
 	padding:7px;
 }
 
+#events-carousel .title-excerpt h3{
+	font-size: 23px;
+	font-family: 'MaruBuriSemiBold';	
+}
+
+
 .events-title{
 	font-family: 'EB Garamond', serif;
 	font-weight: 500;
@@ -2963,6 +2969,15 @@ button.mfp-close, button.mfp-arrow {
 .vertical-line{
 	display:none;
 }
+
+/* ----------------------------------------------*/
+/* More Events Section						     */
+/* ----------------------------------------------*/
+#events-carousel{
+	width: 80%;
+	margin: auto;
+}
+
 /* ----------------------------------------------*/
 /* Gift Section						             */
 /* ----------------------------------------------*/
@@ -3244,6 +3259,18 @@ h2#dont-miss-it-title{
 #divider-title-line{
 	font-size: 65px;
 	line-height: 65px;
+}
+
+/* ----------------------------------------------*/
+/* More Events Section						     */
+/* ----------------------------------------------*/
+#events-carousel .title-excerpt h3{
+	font-size: 21px;	
+}
+
+#events-carousel{
+	width: 90%;
+	margin: auto;
 }
 
 /* ----------------------------------------------*/
@@ -3628,6 +3655,17 @@ h2#dont-miss-it-title{
 #end-of-story h2{
     font-size: 21px;
 }
+/* ----------------------------------------------*/
+/* More Events Section				     		 */
+/* ----------------------------------------------*/
+#events-carousel{
+	width: 100%;
+	margin: auto;
+}
+
+#events-carousel .title-excerpt h3{
+	font-size: 18px;	
+}
 
 /* ----------------------------------------------*/
 /* Where When Section		     				 */
@@ -3976,6 +4014,14 @@ h2#dont-miss-it-title{
 }
 .three-col.with-gutter .masonry-col.w33{
 	width:31%;
+}
+
+/* ----------------------------------------------*/
+/* More Events Section		     			     */
+/* ----------------------------------------------*/
+
+#events-carousel .title-excerpt h3{
+	font-size: 14px;	
 }
 
 /* ----------------------------------------------*/
