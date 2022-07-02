@@ -152,13 +152,9 @@ img.with-border{
 
 .description{
 	text-align: justify;
-	font-family: 'MaruBuri', serif;
+	font-family: 'Noto Sans KR', sans-serif;
 	line-height: 1.9em;
-}
-
-#more-events p{
-	text-align: justify; 
-	text-justify: inter-word;
+	margin-bottom: 0.6em;
 }
 
 .numberfont{
