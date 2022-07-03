@@ -2422,7 +2422,8 @@ hr.line-bride{
 }
 
 #where-when .address-info h3{
-	font-family: 'MaruBuri', serif;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 300;
 	font-size: 18px;
 }
 
@@ -2463,6 +2464,14 @@ hr.line-bride{
 #map-canvas{
 	height:560px; 
 	width:100%; 
+}
+
+/* address info Icon */
+#where-when .de-icon{
+	width: 40px;
+	height: 40px;
+	line-height: 45px;
+	font-size:18px;	
 }
 
 /* ----------------------------------------------*/
@@ -3398,6 +3407,7 @@ p{
 	font-size:11px;	
 }
 
+
 /* ICON & DIVIDER                                */
 /* ----------------------------------------------*/	
 .pink-heart{
@@ -3712,6 +3722,14 @@ h2#dont-miss-it-title{
 
 #where-when .location-info p{
 	font-size: 13px;
+}
+
+/* address info icon */
+#where-when .de-icon{ 
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	font-size:11px;	
 }
 
 /* ----------------------------------------------*/

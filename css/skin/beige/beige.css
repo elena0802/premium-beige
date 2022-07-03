@@ -268,8 +268,8 @@ a:hover .de-icon.default, a:hover .de-icon.default.light{
 
 .de-icon.outline.reverse{
 	background-color:transparent;
-	color:#Fa7991;
-	border:1px solid #Fa7991;
+	color:#728c59;
+	border:1px solid #728c59;
 }
 
 .de-icon.outline.light, .de-icon.outline.light.reverse{
@@ -435,9 +435,6 @@ hr.line-bride{
 /* ----------------------------------------------*/
 /* 14.8 Where When Section              		 */
 /* ----------------------------------------------*/
-#address-icon{
-	background-color: #d2c2a4;
-}
 
 /* ----------------------------------------------*/
 /* 14.9 FOOTER                           		 */
