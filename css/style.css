@@ -1140,7 +1140,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 
 #popup-template #the-content{
 	padding:35px 70px;
-	margin-bottom: 10px;
+	margin: auto;
 }
 
 #popup-template #the-content #socialnetwork-icon{
@@ -1887,7 +1887,7 @@ a:hover .de-icon.effect3{
 }
 
 .interview-btn{
-	display: none;  /*couple interview button inactivate*/
+	/*display: none;  /*couple interview button inactivate*/
 	font-size: 18px;
 	font-family: 'MaruBuri', serif;
 	text-decoration: none;
@@ -1933,9 +1933,8 @@ a:hover .de-icon.effect3{
 .story-qna p{
 	margin-bottom: 15px;
 	color: #6a6a6a;
-	font-family: 'MaruBuri', serif;
+	font-family: 'Noto Sans KR', sans-serif;
 	text-align: justify;
-	text-justify: inter-word;
 }
 
 .test{
@@ -2017,6 +2016,10 @@ a:hover .de-icon.effect3{
 	border-radius:50%;
 	height: 20px;
 	width: 20px;
+}
+
+#popup-template .story-date{
+	display: none;
 }
 
 .story-date .date-only{
@@ -3176,7 +3179,7 @@ p{
 /* ----------------------------------------------*/	
 
 #our-story{
-	padding: 80px 30px 60px 30px;
+	padding: 80px 30px 80px 30px;
 }
 
 #more-events{
@@ -3653,7 +3656,7 @@ h2#dont-miss-it-title{
 /* Our Story Section				     		 */
 /* ----------------------------------------------*/
 #our-story{
-	padding: 60px 5px 40px 5px;
+	padding: 60px 5px 60px 5px;
 }
 
 .qna-title{
