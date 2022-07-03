@@ -14,8 +14,9 @@ body{
     font-family: 'MaruBuri', serif;
 	font-size:15px;
 	/*scrollbar-width: none !important;
-	-ms-overflow-style: none !important;
-	overflow-x: hidden;*/
+	-ms-overflow-style: none !important;*/
+	max-width: 100%;
+	overflow-x: hidden;
 }
 
 /*body::-webkit-scrollbar{
