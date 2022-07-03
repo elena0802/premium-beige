@@ -18,13 +18,13 @@ body{
 	overflow-x: hidden;*/
 }
 
-body::-webkit-scrollbar{
+/*body::-webkit-scrollbar{
 	display: none !important;
 	width: 0;
 	height: 0;
 	background: transparent !important;
 	-webkit-appearance: none !important;
-}
+}*/
 
 
 h1,h2,h3,h4,h5,h6{
@@ -667,7 +667,7 @@ img.with-border{
 	height: 50px;
 	width: 100%;
 	/*position: absolute;*/
-	bottom: 0;
+	bottom: 10px;
 	z-index: 4;
 	padding-right:10px;
 	text-align:right;
@@ -681,6 +681,14 @@ img.with-border{
 
 #main-slider .video-audio-control.mobile{
 	display:none;
+}
+
+/* Audio Music Icon */
+#mute-audio .de-icon{
+	width: 40px;
+	height: 40px;
+	line-height: 45px;
+	font-size:18px;	
 }
 
 /*===============================================*/
@@ -2419,34 +2427,28 @@ hr.line-bride{
 }
 
 #where-when .location-info{
-	margin-bottom: 40px;
-	margin-top: 10px;
-	margin-left: 20px;
+	margin: 0px 20px 40px 20px;
 }
 
 #where-when .location-info h3{
-	font-size: 20px;
-	margin-left: 10px;
-	margin-bottom: 5px;
+	margin-bottom: 15px;
+	font-size: 21px;
 	font-family: 'MaruBuriSemiBold', serif;
 }
 
 #where-when .location-info h4{
+	margin-bottom: 5px;
 	font-size: 16px;
-	margin-bottom: 0px;
-	margin-left: 10px;
-	font-family: 'MaruBuriSemiBold', serif;
+	font-family: 'Noto Sans KR', serif;
+	font-weight: 400;
 }
 
 #where-when .location-info p{
 	margin-left: 20px;
+	margin-bottom: 0px;
 	font-size: 16px;
-	font-family: 'MaruBuri', serif;
-	margin-bottom: 0px; 
-}
-
-#where-when .location-detail{
-	margin: 20px 0px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 400;
 }
 
 .and{
@@ -3385,6 +3387,17 @@ p{
 	font-size: 14px;
 }
 
+/* Audio Music Icon very-small-size*/
+#main-slider .video-audio-control{
+	bottom: 0;
+}
+#mute-audio .de-icon{ 
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	font-size:11px;	
+}
+
 /* ICON & DIVIDER                                */
 /* ----------------------------------------------*/	
 .pink-heart{
@@ -3686,24 +3699,19 @@ h2#dont-miss-it-title{
 }
 
 #where-when .address-info h3{
-	font-family: 'MaruBuri', serif;
 	font-size: 14px;
 }
 
 #where-when .location-info h3{
-	font-size: 15px;
-	margin-left: 5px;
+	font-size: 16px;
 }
 
 #where-when .location-info h4{
 	font-size: 13px;
-	margin-left: 5px;
-	margin-bottom: 5px;
 }
 
 #where-when .location-info p{
 	font-size: 13px;
-	margin-left: 10px;
 }
 
 /* ----------------------------------------------*/
@@ -4017,7 +4025,7 @@ h2#dont-miss-it-title{
 }
 
 /* ----------------------------------------------*/
-/* More Events Section		     			     */
+/* More Section		     			     */
 /* ----------------------------------------------*/
 
 #events-carousel .title-excerpt h3{

@@ -265,6 +265,7 @@ a:hover .de-icon.default, a:hover .de-icon.default.light{
 	color:#Fa7991;
 }
 
+
 .de-icon.outline.reverse{
 	background-color:transparent;
 	color:#Fa7991;
@@ -277,9 +278,9 @@ a:hover .de-icon.default, a:hover .de-icon.default.light{
 	border:1px solid #FFF;
 }
 
-
+/* Music icon ON unmute */
 a:hover .de-icon.circle, a:hover .de-icon.rounded, a:hover .de-icon.square{
-	background-color:#Fa7991;
+	background-color:#f0394d;;
 	color:#FFF;
 	border:none;
 }
