@@ -679,9 +679,9 @@ img.with-border{
 	position: fixed;
 }
 
-/*#main-slider .video-audio-control.mobile{
+#main-slider .video-audio-control.mobile{
 	display:none;
-}*/
+}
 
 /* Audio Music Icon */
 #mute-audio .de-icon{
