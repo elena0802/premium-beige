@@ -280,7 +280,7 @@ a:hover .de-icon.default, a:hover .de-icon.default.light{
 
 /* Music icon ON unmute */
 a:hover .de-icon.circle, a:hover .de-icon.rounded, a:hover .de-icon.square{
-	background-color:#f0394d;;
+	background-color:#f0394d;
 	color:#FFF;
 	border:none;
 }

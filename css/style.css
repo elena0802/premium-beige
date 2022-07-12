@@ -1889,7 +1889,7 @@ a:hover .de-icon.effect3{
 }
 
 .interview-btn{
-	/*display: none;  /*couple interview button inactivate*/
+	display: none;  /*couple interview button inactivate*/
 	font-size: 18px;
 	font-family: 'MaruBuri', serif;
 	text-decoration: none;
@@ -3398,7 +3398,7 @@ p{
 	width: 25px;
 	height: 25px;
 	line-height: 25px;
-	font-size:11px;	
+	font-size:12px;	
 }
 
 
