@@ -10,11 +10,15 @@
 /*===============================================*/
 /* GENERAL			 						     */
 /*===============================================*/
+html, body{
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
 body{
     font-family: 'MaruBuri', serif;
 	font-size:15px;
-	overflow-x: hidden;
-	width: 100%;
+
 }
 
 h1,h2,h3,h4,h5,h6{
