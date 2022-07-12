@@ -653,8 +653,9 @@ img.with-border{
 /* ----------------------------------------------*/
 #main-slider .video-audio-control{
 	height: 50px;
-	width: 100%;
+	/*width: 100%;*/
 	/*position: absolute;*/
+	right: 0px;
 	bottom: 10px;
 	z-index: 4;
 	padding-right:10px;
