@@ -154,7 +154,6 @@ img.with-border{
 /*===============================================*/
 #nav-header{
 	z-index:1000; 
-	display: none;
 }
 
 #nav-bar{
@@ -667,7 +666,6 @@ img.with-border{
 	flex-direction: row;
 	justify-content: flex-end;
 	position: fixed;
-	display: none;
 }
 
 #main-slider .video-audio-control.mobile{
