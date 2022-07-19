@@ -131,7 +131,9 @@ img.with-border{
 }
 
 .title-kr{
-	font-family: 'MaruBuriSemiBold', serif;
+	/*font-family: 'MaruBuriSemiBold', serif;*/
+	font-family: 'Nanum Myeongjo', serif;
+	font-weight: 700;
 }
 
 .emphasize{
@@ -139,6 +141,14 @@ img.with-border{
 }
 
 .description{
+	text-align: justify;
+	/*font-family: 'Noto Sans KR', sans-serif;*/
+	font-family: 'MaruBuri', serif;
+	line-height: 1.9em;
+	margin-bottom: 0.6em;
+}
+
+.info-description{
 	text-align: justify;
 	font-family: 'Noto Sans KR', sans-serif;
 	line-height: 1.9em;
@@ -224,7 +234,8 @@ img.with-border{
 	list-style-type:none; 
 	margin:0; 
 	/* padding:45px 0 0 0; */ /* Deleted */
-	font-family: 'MaruBuri', serif;
+	font-family: 'Nanum Myeongjo', serif;
+	font-weight: 400;
 	font-size:14px;
 	z-index:1000;
 	vertical-align: middle;
@@ -404,7 +415,7 @@ img.with-border{
 	/*background-color: #fa7991; */
 	text-align:left; 
 	padding: 25px 0px;
-	
+	letter-spacing: 1px;
 }
 
 .css-logo.rounded{
@@ -414,7 +425,7 @@ img.with-border{
 .css-logo-text{
 	padding-top:0px; 
 	font-size:22px;
-	font-family: 'EB Garamond', serif;
+	font-family: 'Nanum Myeongjo', serif;
 	font-weight: 700;
 }
 
@@ -1782,11 +1793,6 @@ a:hover .de-icon.effect3{
 	
 }
 
-.slide-title h1{
-	margin-top: 15px;
-	margin-bottom: 20px;
-}
-
 #banner-date{
 	font-family: 'EB Garamond', sans-serif; 
 	font-weight: 500;
@@ -1808,9 +1814,12 @@ a:hover .de-icon.effect3{
 }
 
 .slide-title h1{
-	font-family: 'MaruBuri', serif; 
+	font-family: 'Nanum Myeongjo', serif; 
+	font-weight: 400;
 	letter-spacing: 0.15em;
 	color: #fff9ed;
+	margin-top: 15px;
+	margin-bottom: 20px;
 }
 
 .slide-title h2{
@@ -2161,7 +2170,8 @@ h2#dont-miss-it-title{
 	font-size: 25px;
 	letter-spacing: 0.5em;
 	margin-bottom:40px; 
-	font-family: 'MaruBuriLight', serif;
+	font-family: 'Nanum Myeongjo', serif;
+	font-weight: 400;
 }
 
 #divider-title{
@@ -2685,9 +2695,12 @@ button.mfp-close, button.mfp-arrow {
 .mobile-logo{
 	display: block;
 	text-align: left;
-	font-size:18px;
-	font-family: 'EB Garamond', serif;
-	font-weight: 500;
+	font-size:20px;
+	font-family: 'Nanum Myeongjo', serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+	/*font-family: 'EB Garamond', serif;*/
+	/*font-weight: 500;*/
 	padding: 16px 0px;
 }
 
@@ -3461,7 +3474,7 @@ hr.line-divider{
 
 .mobile-logo{
 	display: block;
-	font-size: 16px;
+	font-size: 18px;
 	padding: 18px 0px;
 }
 
@@ -3931,16 +3944,7 @@ h2#dont-miss-it-title{
 }
 
 .mobile-logo{
-	display: none;
-}
-
-.css-logo{
-	display: block;
 	padding: 18px 0px;
-}
-
-.css-logo-text{
-	font-size: 18px;
 }
 
 /* ----------------------------------------------*/
