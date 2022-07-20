@@ -163,6 +163,7 @@ img.with-border{
 /* NAV BAR  	 							     */
 /*===============================================*/
 #nav-header{
+	display: none;
 	z-index:1000; 
 }
 
@@ -685,6 +686,7 @@ img.with-border{
 
 /* Audio Music Icon */
 #mute-audio .de-icon{
+	display: none;
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
