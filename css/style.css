@@ -163,7 +163,6 @@ img.with-border{
 /* NAV BAR  	 							     */
 /*===============================================*/
 #nav-header{
-	display: none;
 	z-index:1000; 
 }
 
